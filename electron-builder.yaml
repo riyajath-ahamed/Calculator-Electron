@@ -1,0 +1,12 @@
+appId: "com.github.riyajath-ahamed.Calculator-Electron"
+productName: "Calculator Next&Electron"
+copyright: "Copyright (c) 202 Riyajath Ahamed"
+win:
+  target: ["dir", "portable", "zip"]
+  icon: "resources/icon.ico"
+linux:
+  target: ["dir", "appimage", "zip"]
+  icon: "resources/icon.png"
+mac:
+  target: ["dir", "dmg", "zip"]
+  icon: "resources/icon.icns"
