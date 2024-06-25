@@ -18,8 +18,9 @@ const appServe = app.isPackaged ? serve({
 
 const createWindow = () => {
     const win = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 480,
+        height: 610,
+        
         webPreferences: {
             preload: path.join(__dirname, "preload.mjs"),
             contextIsolation: true,  // ensure context isolation is enabled
